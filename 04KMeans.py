@@ -27,7 +27,7 @@ def randCent(dataArr, k):
 
 
 # 读取数据，并转换为ndarray
-data = pd.read_table('C://Users/zhang/Documents/Data-HackData/test_data_1.txt', sep='\t').values
+data = pd.read_table('./Data/test_data_1.txt', sep='\t').values
 
 
 # 调用函数得到随机质心

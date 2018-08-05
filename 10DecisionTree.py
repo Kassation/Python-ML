@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd 
 
 # 读取数据
-weekend_data = pd.read_table("C://Users/zhang/Documents/Data-HackData/weekend.txt",  sep='\t')
+weekend_data = pd.read_table("./Data/weekend.txt",  sep='\t')
 
 ## 自定义计算entropy的函数
 def cal_entropy(data, feature_name):
@@ -121,7 +121,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
-data = pd.read_csv('C://Users/zhang/Documents/Data-HackData/product.csv')
+data = pd.read_csv('./Data/product.csv')
 
 ## 构建分支节点选择方法为信息熵的决策树模型tree_model
 tree_model = DecisionTreeClassifier(criterion='entropy')

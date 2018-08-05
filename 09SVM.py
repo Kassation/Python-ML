@@ -6,7 +6,7 @@ from sklearn import preprocessing
 from sklearn.svm import SVC
 
 #读取数据
-data = pd.read_csv("C://Users/zhang/Documents/Data-HackData/diabetes.csv")
+data = pd.read_csv("./Data/diabetes.csv")
 
 #将目标特征与其他特征分离
 X = data.iloc[:, :-1]

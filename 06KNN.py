@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-train_data = pd.read_table("C://Users/zhang/Documents/Data-HackData/gender.txt", sep = '\t')
-test_data = pd.read_table("C://Users/zhang/Documents/Data-HackData/test.txt", sep = '\t')
+train_data = pd.read_table("./Data/gender.txt", sep = '\t')
+test_data = pd.read_table("./Data/test.txt", sep = '\t')
 
 print(u'训练集大小：', train_data.shape)
 print(' ')

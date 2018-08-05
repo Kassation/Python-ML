@@ -11,10 +11,10 @@ print(tn,fp,fn,tp)
 
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 
 # 读入数据
-data = pd.read_table('C://Users/zhang/Documents/Data-HackData/data.txt', sep='\s+')
+data = pd.read_table('./Data/data.txt', sep='\s+')
 train_data, test_data, train_y, test_y = train_test_split(data.iloc[:,:-1], data.iloc[:,-1],test_size=.2, random_state=0)
 
 # 训练模型并作出预测

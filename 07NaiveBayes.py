@@ -1,30 +1,30 @@
 import numpy as np
 
-f = open("C://Users/zhang/Documents/Data-HackData/train_data.txt")
+f = open("./Data/train_data.txt")
 train_data = []
 for line in f:
     a = line.strip().split(" ")
     train_data.append(a)
 f.close()
-f = open("C://Users/zhang/Documents/Data-HackData/train_label.txt")
+f = open("./Data/train_label.txt")
 train_label = []
 for line in f:
     a = int(line.strip().split(" ")[0])
     train_label.append(a)
 f.close()
-f = open("C://Users/zhang/Documents/Data-HackData/vocab_list.txt")
+f = open("./Data/vocab_list.txt")
 vocab = []
 for line in f:
     a = line.strip().split(" ")[0]
     vocab.append(a)
 f.close()
-f = open("C://Users/zhang/Documents/Data-HackData/test_data.txt")
+f = open("./Data/test_data.txt")
 test_data = []
 for line in f:
     a = line.strip().split(" ")
     test_data.append(a)
 f.close()
-f = open("C://Users/zhang/Documents/Data-HackData/test_label.txt")
+f = open("./Data/test_label.txt")
 test_label = []
 for line in f:
     a = int(line.strip().split(" ")[0])
