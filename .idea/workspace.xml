@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5948ec-7817-44ea-a178-3fbdbe4a4adb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/01Preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04KMeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/04KMeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05ModelEvaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/05ModelEvaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/06KNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07NaiveBayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/07NaiveBayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/09SVM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10DecisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/10DecisionTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/02LinearRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/03PCA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08MultilayerPerceptrons.py" beforeDir="false" afterPath="$PROJECT_DIR$/08MultilayerPerceptrons.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,53 +32,52 @@
     <session id="-1188526089">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="54" />
+          <entry key="Python Console" value="399" />
+          <entry key="py" value="709" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="54" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="1108" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python-ML" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01Preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02LinearRegression.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03PCA.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -121,13 +118,15 @@
         <option value="$PROJECT_DIR$/08MultilayerPerceptrons.py" />
         <option value="$PROJECT_DIR$/LinearRegression.py" />
         <option value="$PROJECT_DIR$/PCA.py" />
-        <option value="$PROJECT_DIR$/01Preprocessing.py" />
         <option value="$PROJECT_DIR$/04KMeans.py" />
         <option value="$PROJECT_DIR$/05ModelEvaluation.py" />
         <option value="$PROJECT_DIR$/06KNN.py" />
         <option value="$PROJECT_DIR$/10DecisionTree.py" />
         <option value="$PROJECT_DIR$/07NaiveBayes.py" />
         <option value="$PROJECT_DIR$/09SVM.py" />
+        <option value="$PROJECT_DIR$/01Preprocessing.py" />
+        <option value="$PROJECT_DIR$/02LinearRegression.py" />
+        <option value="$PROJECT_DIR$/03PCA.py" />
       </list>
     </option>
   </component>
@@ -138,8 +137,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="978" />
+    <option name="x" value="256" />
+    <option name="y" value="11" />
+    <option name="width" value="979" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -148,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,13 +159,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.09SVM">
+  <component name="RunManager" selected="Python.03PCA">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <module name="180801KNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,7 +227,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04KMeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="01Preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,16 +240,16 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04KMeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01Preprocessing.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05ModelEvaluation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,31 +262,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05ModelEvaluation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02LinearRegression.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03PCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-ML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06KNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03PCA.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -438,19 +435,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.04KMeans" />
-      <item itemvalue="Python.05ModelEvaluation" />
-      <item itemvalue="Python.06KNN" />
       <item itemvalue="Python.10DecisionTree" />
       <item itemvalue="Python.09SVM" />
+      <item itemvalue="Python.01Preprocessing" />
+      <item itemvalue="Python.02LinearRegression" />
+      <item itemvalue="Python.03PCA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.03PCA" />
+        <item itemvalue="Python.03PCA" />
+        <item itemvalue="Python.02LinearRegression" />
+        <item itemvalue="Python.01Preprocessing" />
         <item itemvalue="Python.09SVM" />
-        <item itemvalue="Python.10DecisionTree" />
-        <item itemvalue="Python.06KNN" />
-        <item itemvalue="Python.05ModelEvaluation" />
-        <item itemvalue="Python.04KMeans" />
       </list>
     </recent_temporary>
   </component>
@@ -465,26 +462,42 @@
       <option name="presentableId" value="Default" />
       <updated>1533100953032</updated>
     </task>
+    <task id="LOCAL-00001" summary="Upload Data files &amp; change path">
+      <created>1533439842414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533439842414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49747476" visible="true" weight="0.27144772" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50252527" side_tool="true" weight="0.2680965" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4921986" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4921986" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.43829787" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -492,7 +505,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.3297587" />
+      <window_info anchor="right" auto_hide="true" x="214" y="159" width="470" height="705" id="SciView" order="5" show_stripe_button="false" type="FLOATING" weight="0.3150134" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="6" side_tool="true" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,6 +514,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upload Data files &amp; change path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload Data files &amp; change path" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -533,23 +551,10 @@
     <entry file="file://$PROJECT_DIR$/11AdaBoost.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02LinearRegression.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/04KMeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1826">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#6#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,8 +603,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01Preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-842">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03PCA.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
